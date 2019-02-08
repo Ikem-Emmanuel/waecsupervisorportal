@@ -1,0 +1,436 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	background: #EAEAEA;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+	background:#ededed;
+}
+#content {
+	padding-bottom:100px; /* Height of the footer element */
+}
+.fieldset{
+	margin: 30px;
+	box-shadow: 3px 2px 4px 0px #CCC;
+	border-radius: 7px 7px 0px 0px;
+}
+
+.pic-info{
+	font-size: 10px;
+}
+.nominee_photo{
+
+}
+.navbar-inverse {
+    background-color: #000040;
+    border-color: #4B4D98;
+    opacity: 0.9;
+}
+
+.navbar-nav {
+    float: left;
+    margin-top: 35px;
+    margin-left: 0px;
+}
+
+.navbar {
+    margin-bottom: 5px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.dashboard {
+	margin-top: 60px;
+}
+
+
+.creator {
+	margin-top: 50px;
+	background: #FFF;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	box-shadow: 3px 2px 4px 3px #CCC;
+	border-radius: 7px 7px 0px 0px;
+	margin-bottom: 80px;
+}
+
+.create_error {
+	text-align: center;
+}
+
+.creator label {
+	font-weight: normal;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	color: #666666;
+}
+.work .form-group{
+	margin-right: 3px;
+}
+.search_line {
+	margin: 50px 0 30px;
+}
+
+.top_10 {
+	margin-top: 10px;
+}
+
+.top_100 {
+	margin-top: 80px;
+}
+
+.top_150 {
+	margin-top: 150px;
+}
+
+.top_200 {
+	margin-top: 200px;
+}
+
+.titler {
+	background: #666666;
+	color: #FFFFFF;
+	padding: 15px 0px;
+	text-align: right;
+	margin-top: -5px;
+	font-size: 18px;
+}
+
+.titled {
+	background: #999999;
+	color: #FFFFFF;
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 16px;
+	margin: 0px 25px 40px;
+}
+
+.search_line a{
+	color: #FFFFFF;
+	background: #444444;
+	padding: 10px 20px;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+
+.search_line a:hover {
+	color: #FFFF00;
+	background: #111111;
+	padding: 10px 20px;
+	margin-top: 0px;
+	text-decoration: none;
+}
+
+.fullname {
+	text-transform: uppercase;
+}
+.capitalize{
+	text-transform: capitalize
+}
+h2 {
+	color: #666;
+	margin-bottom: 100px;
+	font-size: 26px;
+	font-weight: normal;
+	text-align: center;
+	background: #fafafa;
+	padding: 20px 0;
+	margin-top: 0px;
+}
+
+h3 {
+	color: #fff;
+	text-align: center;
+	margin: 130px 0px 70px;
+	font-family: "Trebuchet MS";
+	font-size: 60px;
+	font-weight: 600;
+	text-shadow: 3px 3px #012E53;
+}
+
+h4 {
+	color: #dedede;
+	margin-bottom: 20px;
+	font-size: 26px;
+	font-weight: normal;
+	font-family: "Trebuchet MS";
+	text-align: center;
+}
+
+h5 {
+	color: #fff;
+	font-family: "Trebuchet MS";
+	font-size: 60px;
+	font-weight: 600;
+	text-shadow: 3px 3px #012E53;
+}
+
+h6 {
+	color: #fff;
+	font-family: "Trebuchet MS";
+	font-size: 30px;
+	font-weight: 600;
+	text-shadow: 3px 3px #012E53;
+}
+
+.bg-primary {
+    color: #FFF;
+    background-color: #012E53;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+.bg-danger {
+    color: #FFF;
+    background-color: #982315;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login {
+	background: #012E53;
+	border-radius: 5px;
+	padding: 30px 50px 40px;
+	box-shadow: 1px 1px 5px 4px #333;
+	margin-top: 90px;
+	margin-bottom: 50px;
+	opacity: 0.9;
+}
+
+.login a {
+	color: #fff;
+	font-size: 11px;
+}
+
+.login_errors {
+	color: #FFFF00;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.input-group-addon {
+	color: #FFF;
+	background-color: #337AB7;
+	border-color: #2E6DA4;
+}
+
+.form-control {
+	height: 42px;
+}
+
+.footer {
+	color: #fff;
+	font-size: 12px;
+	background: #000040;
+	width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding-top: 25px;
+}
+
+.footer a {
+	color: #ff0;
+	margin-left: 30px;
+}
+
+
+/*Miscellaneous Styles*/
+
+@media print {
+    .noprint {display:none;}
+}
+
+@media screen {
+    ...
+}
+
+#pix {
+    width:250px;
+    height:250px;
+}
+
+#imagePreview {
+    width:250px;
+    height:250px;
+    border:1px solid #999;
+    background-image: url("../images/icon.png");
+    background-repeat: no-repeat;
+}
+
+.search_scoop {
+	padding: 10px 13px 10px 13px;
+}
+
+.table {
+    width: 95%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-left: 3%;
+}
+
+.paginator {
+	background: #333;
+	padding: 10px 0px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.paginator a{
+	color: #fff;
+	margin-left: 10px;
+}
+
+.not_found {
+	background-color: #000040;
+    border-color: #4B4D98;
+    opacity: 0.9;
+	color: #FFFFFF;
+	border-radius: 4px;
+	padding: 30px 50px 20px;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 300px;
+	position: absolute;
+	margin-left: 35%;
+	z-index: 30;
+}
+
+/* Custom Colored Panels */
+
+.huge {
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+.huge a {
+    color: #fff;
+}
+
+.huge a:hover {
+    color: #ff0;
+}
+
+.panel-green {
+    border-color: #060;
+}
+
+.panel-green > .panel-heading {
+    border-color: #060;
+    color: #fff;
+    background-color: #060;
+}
+
+.panel-red {
+    border-color: #900;
+}
+
+.panel-red > .panel-heading {
+    border-color: #900;
+    color: #fff;
+    background-color: #900;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow > .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-pink {
+    border-color: #cc0066;
+}
+
+.panel-pink > .panel-heading {
+    border-color: #cc0066;
+    color: #fff;
+    background-color: #cc0066;
+}
+
+.panel-purple {
+    border-color: #6600CC;
+}
+
+.panel-purple > .panel-heading {
+    border-color: #6600CC;
+    color: #fff;
+    background-color: #6600CC;
+}
+
+.panel-black {
+    border-color: #000;
+}
+
+.panel-black > .panel-heading {
+    border-color: #000;
+    color: #fff;
+    background-color: #000;
+}
+
+.panel-blue {
+    border-color: #0000DC;
+}
+
+.panel-blue > .panel-heading {
+    border-color: #0000DC;
+    color: #fff;
+    background-color: #0000DC;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../mdb/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(../mdb/MaterialIcons-Regular.woff2) format('woff2'),
+       url(../mdb/MaterialIcons-Regular.woff) format('woff'),
+       url(../mdb/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
