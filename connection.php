@@ -18,12 +18,7 @@
 			$this->host = "localhost";
 			$this->user = "root";
 			$this->pass = "";
-			$this->db = "waecsupervisor";
-
-
-			//$this->user = "botolink_supssce";
-			//$this->pass = "Bz}75k9RRvq(";
-			//$this->db = "botolink_supssce";
+			$this->db = "";
 			
 		}
 		

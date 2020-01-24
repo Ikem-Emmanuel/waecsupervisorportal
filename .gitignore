@@ -1,1 +1,4 @@
 uploads/*
+.well-known
+cgi-bin
+.htaccess
