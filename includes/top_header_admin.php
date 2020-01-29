@@ -1,51 +1,33 @@
-<div id="wrapper"><!-- start wrapper ID, finish it inside footer -->
-    
-    <div id="header"><!-- start CSS header ID -->
-
 <!-- Header starts here -->
-    <nav class="navbar navbar-inverse" role="navigation">
-        <div class="container">
-            <!-- Logo and Navigation gets grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand navbar-collapse collapse" href="index.php"><img src="images/logo.png" /></a>
 
-                <a class="navbar-brand navbar-toggle" data-toggle="collapse" href="index.php">WAEC Supervisors' E-Registration Portal</a>
+<nav class="navbar navbar-expand topbar mb-4 static-top shadow" style="background-color: #181851">
+
+    <a class="navbar-brand p-5" href="#">
+        <img src="images/logo.png" width="50%" height="30%" alt="">
+    </a>
+
+    <!-- Topbar Navbar -->
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown no-arrow">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">
+                        <?php
+                        if (isset($_SESSION["fullname"])){
+                            echo "Hi Admin ". $_SESSION["fullname"];
+                        }
+                        ?>
+                    </span>
+                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+            </a>
+            <!-- Dropdown - User Information -->
+            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">
+                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                    Logout
+                </a>
             </div>
+        </li>
 
-            <!-- Collect the Navigation link and Login Form for toggling -->
-            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="resetpassword.php">Change Password</a>
-                    </li>
-                    <li>
-                        <a href="logout.php">Logout</a>
-                    </li>
-                </ul>
-            </div> <!-- /.navbar-collapse -->
-        </div> <!-- /.container -->
-    </nav>
+    </ul>
 
-    <div class="top_spacer"></div>
-    <!-- header ends here -->
-
-        <div class="titler">
-            <div class="container">
-                <?php
-					if (isset($_SESSION["fullname"])){
-					echo "Hi Admin ". $_SESSION["fullname"];
-					}
-				?> 
-            </div>
-        </div>
-
-
-    </div> <!-- end CSS header ID -->
-
-    <div id="content"><!-- start CSS content ID, finish it inside footer -->
+</nav>

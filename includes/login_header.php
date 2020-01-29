@@ -16,7 +16,9 @@
 		<link href="boot/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
 		
 		<!-- Main Css -->
+        <link href="css/login.css" rel="stylesheet" type="text/css" media="screen" />
 		<link href="css/supervisor.css" rel="stylesheet" type="text/css" media="screen" />
+
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
